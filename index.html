@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 20px;
             color: #333;
@@ -18,14 +18,20 @@
             margin-bottom: 5px;
         }
         .title-sub {
-            font-size: 1.12rem;
-            color: #666;
+            font-size: 1.15rem;
+            color: #555;
             margin-bottom: 20px;
+            font-weight: bold;
         }
         nav {
-            border-bottom: 2px solid #0056b3;
-            padding-bottom: 10px;
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
             margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
         nav a {
             text-decoration: none;
@@ -37,20 +43,26 @@
             text-decoration: underline;
         }
         h2 {
-            color: #333;
-            margin-top: 30px;
-            border-bottom: 1px solid #ccc;
+            color: #0056b3;
+            margin-top: 40px;
+            border-bottom: 2px solid #0056b3;
             padding-bottom: 5px;
         }
-        ul {
-            padding-left: 20px;
+        h3 {
+            color: #444;
+            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 3px;
+        }
+        ul, ol {
+            padding-left: 25px;
         }
         li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
         .date {
             font-weight: bold;
-            color: #555;
+            color: #444;
         }
         .note {
             font-style: italic;
@@ -58,10 +70,24 @@
         }
         .intro-text {
             font-size: 1.05rem;
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-left: 4px solid #0056b3;
+            background-color: #f1f5f9;
+            padding: 20px;
+            border-left: 5px solid #0056b3;
+            border-radius: 0 5px 5px 0;
             margin-bottom: 30px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-box {
+            background-color: #fafafa;
+            padding: 15px;
+            border: 1px dashed #ccc;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -70,40 +96,42 @@
     <h1>Rajendra P. Kundu</h1>
     <div class="title-sub">Professor, Centre for Economic Studies and Planning (CESP), JNU</div>
     
-    <!-- Navigation Menu for your GitHub Page -->
+    <!-- Navigation Menu -->
     <nav>
         <a href="#bio">Short Bio</a>
-        <a href="#cv">Full CV</a>
         <a href="#research">Research</a>
         <a href="#supervision">Supervision</a>
         <a href="#teaching">Teaching</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Contact</a>
     </nav>
 
     <!-- Introduction Section -->
     <p class="intro-text">
-        Rajendra P. Kundu is an economist based at Jawaharlal Nehru University (JNU) in New Delhi, where he serves as a professor at the Centre for Economic Studies and Planning within the School of Social Sciences. His academic work focuses on applying economic theory to understand and analyze both formal/informal institutions (including legal institutions and social/economic/political networks).
+        Rajendra P. Kundu is an economist based at Jawaharlal Nehru University (JNU) in New Delhi, where he serves as a professor at the Centre for Economic Studies and Planning within the School of Social Sciences. His academic work focuses on applying economic theory to understand and analyze both formal and informal institutions (including legal institutions and social, economic, and political networks).
     </p>
 
     <!-- Short Bio Section -->
     <h2 id="bio">Short Bio</h2>
     <ul>
+        <li><strong>Name:</strong> Rajendra P. Kundu</li>
         <li><strong>Year of Birth:</strong> 1976</li>
     </ul>
 
     <h3>Education</h3>
     <ul>
-        <li><span class="date">1978-1992 (School):</span> Bidhan School and St. Michael's School, Durgapur; Ramakrishna Mission Vidyapith, Purulia</li>
-        <li><span class="date">1992-1994 (College):</span> Ramakrishna Mission Residential College, Narendrapur</li>
-        <li><span class="date">1994-1997 (University):</span> Jadavpur University, Kolkata</li>
-        <li><span class="date">1997-2004 (Graduate Studies):</span> Jawaharlal Nehru University, New Delhi</li>
+        <li><span class="date">School (1978-1992):</span> <a href="https://bidhanschool.com" target="_blank">Bidhan School</a> and <a href="https://stmichaelsschooldgp.in" target="_blank">St. Michael's School</a> Durgapur; <a href="https://rkmvp.org" target="_blank">Ramakrishna Mission Vidyapith</a>, Purulia</li>
+        <li><span class="date">College (1992-1994):</span> <a href="https://rkmrc.in" target="_blank">Ramakrishna Mission Residential College</a>, Narendrapur</li>
+        <li><span class="date">University (1994-1997):</span> <a href="https://jadavpuruniversity.in" target="_blank">Jadavpur University</a>, Kolkata</li>
+        <li><span class="date">Graduate Studies (1997-2004):</span> <a href="https://www.jnu.ac.in" target="_blank">Jawaharlal Nehru University</a>, New Delhi</li>
     </ul>
 
     <h3>Regular Academic Positions</h3>
     <ul>
-        <li><span class="date">05/2008 - Present:</span> Jawaharlal Nehru University, New Delhi</li>
-        <li><span class="date">01/2016 - 01/2019:</span> Dr. B. R. Ambedkar University Delhi <span class="note">(On Deputation from JNU)</span></li>
-        <li><span class="date">05/2005 - 05/2008:</span> Jadavpur University, Kolkata</li>
-        <li><span class="date">12/2003 - 04/2005:</span> Delhi School of Economics</li>
+        <li><span class="date">05/2008 - Present:</span> <a href="https://www.jnu.ac.in" target="_blank">Jawaharlal Nehru University</a>, New Delhi</li>
+        <li><span class="date">01/2016 - 01/2019:</span> <a href="https://aud.delhi.gov.in" target="_blank">Dr. B. R. Ambedkar University Delhi</a> <span class="note">(On Deputation from JNU)</span></li>
+        <li><span class="date">05/2005 - 05/2008:</span> <a href="https://jadavpuruniversity.in" target="_blank">Jadavpur University</a>, Kolkata</li>
+        <li><span class="date">12/2003 - 04/2005:</span> <a href="http://econdse.org" target="_blank">Delhi School of Economics</a></li>
     </ul>
 
     <h3>Visiting Positions</h3>
@@ -114,18 +142,55 @@
         <li>National University of Juridical Sciences, Kolkata</li>
     </ul>
 
-    <!-- Placeholder Sections for Content Expansion -->
-    <h2 id="cv">Full CV</h2>
-    <p><em>Content coming soon.</em></p>
-
+    <!-- Research Section -->
     <h2 id="research">Research</h2>
-    <p><em>Content coming soon.</em></p>
+    <h3>Working Papers</h3>
+    <ul>
+        <li>Characterization of efficient decomposed liability assignment rules</li>
+    </ul>
 
+    <h3>Publications</h3>
+    <ol>
+        <li><a href="https://doi.org/10.1016/j.mathsocsci.2025.102430" target="_blank">Cooperation and balance in signed networks: A model of multiplex formation</a>, 136 <em>Mathematical Social Sciences</em>, July 2025.</li>
+        <li><a href="https://doi.org/10.1007/s41775-022-00144-x" target="_blank">Decomposition of accident loss and decoupled liability assignment: A class of negligence rules</a>, 58 <em>Indian Economic Review</em>, May 2023.</li>
+        <li><a href="https://doi.org/10.1016/j.mathsocsci.2021.12.007" target="_blank">Efficient simple liability assignment rules: A complete characterization</a>, 116 <em>Mathematical Social Sciences</em>, March 2022.</li>
+        <li><a href="https://doi.org/10.1515/bejte-2019-0160" target="_blank">On the choice of liability rules</a>, 21 <em>The B.E. Journal of Theoretical Economics</em>, January 2021.</li>
+        <li><a href="http://www.accessecon.com/Pubs/EB/2020/Volume40/EB-20-V40-I3-P208.pdf" target="_blank">Efficient liability assignment: Is coupling a necessity?</a>, 40 <em>Economics Bulletin</em> (ISSN: 1545-2921), August 2020.</li>
+        <li><a href="https://doi.org/10.1016/j.rie.2019.07.003" target="_blank">Best-shot network games with continuous action space</a>, 73 <em>Research in Economics</em>, September 2019.</li>
+        <li><a href="https://doi.org" target="_blank">Decomposition of accident loss and efficiency of liability rules</a>, 11 <em>Review of Law and Economics</em>, June 2015.</li>
+        <li><a href="https://dx.doi.org/10.2139/ssrn.1687507" target="_blank">Efficiency of liability rules with role-type uncertainty</a>, 1 <em>Journal of Economic Theory and Social Development</em>, November 2012.</li>
+        <li><a href="https://doi.org/10.1111/j.1468-0106.2009.00436.x" target="_blank">Efficiency of liability rules with interdependent costs of care</a>, 14 <em>Pacific Economic Review</em>, March 2009.</li>
+        <li><a href="https://doi.org/10.1016/j.irle.2006.11.009" target="_blank">Characterization of efficient simple liability rules with multiple tortfeasors</a>, 26 <em>International Review of Law and Economics</em>, September 2006.</li>
+        <li><a href="https://ssrn.com/abstract=1687208" target="_blank">The right to education: Some theoretical issues</a>, 1 <em>Contemporary Issues and Ideas in Social Sciences</em>, January 2005.</li>
+    </ol>
+
+    <!-- Supervision Section -->
     <h2 id="supervision">Supervision</h2>
-    <p><em>Content coming soon.</em></p>
+    <p>The following is a list of individuals who have completed or are pursuing their PhD work under my guidance:</p>
+    <ol>
+        <li><strong>Rupali Sharma</strong> - Consistency conditions for rational choice (2019)</li>
+        <li><strong>Siddhi Gyan Pandey</strong> - Networked interactions and strategic decision making (2019)</li>
+        <li><strong>Harshil Kaur</strong> - Liability Assignment: Decoupling and Economic Efficiency (2020)</li>
+        <li><strong>Benhur Ruqsana</strong> - Communication in Networks: An Economic Analysis (2025)</li>
+        <li><strong>Adrita Banerjee</strong> - Impact of Product-Process Standards on India’s trade, 2000-2020 (2025)</li>
+        <li><strong>Suranjana Roy</strong> - Institutions and economic efficiency: a game theoretic analysis</li>
+        <li>Parvathi Vijayan</li>
+        <li>Akashdeep</li>
+        <li>Mohammed Javead C. P.</li>
+    </ol>
 
+    <!-- Teaching Section -->
     <h2 id="teaching">Teaching</h2>
-    <p><em>Content coming soon.</em></p>
+    <p>I teach the following two elective courses for final-year M.A. students:</p>
+    <ul>
+        <li><strong>Introduction to Networks: Theory and Applications</strong> [Monsoon Semester]</li>
+        <li><strong>Law and Economics</strong> [Winter Semester]</li>
+    </ul>
+    
+    <p>In the past, I have taught the following courses:</p>
+    <ul>
+        <li><strong>Mathematical Methods in Economics</strong> <span class="note">[Core course for M.A. Economics at CESP]</span> (2008-2014)</li>
+        <li><strong>Microeconomics - I</strong> <span class="note">[Core course for B.A. Economics (H) at Jadavpur University]</span> (2005-2007)</li>
+        <li><strong>Microeconomics - II</strong> <span class="note">[Core course for B.A. Economics (H) at Ambedkar University Delhi]</span> (2016-2017)</li>
+        <li><strong>Development Economics</strong> <span class="note">[Core course for B.A. Economics (H) at Jadavpur University]</span> (2006-2007)</li>
 
-</body>
-</html>
