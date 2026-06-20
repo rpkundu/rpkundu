@@ -9,4 +9,5 @@ Rajendra P. Kundu is an economist based at Jawaharlal Nehru University (JNU) in 
 * [Research](research.md)
 * [Supervision](supervision.md)
 * [Teaching](teaching.md)
+* [Contact](contact.md)
 
